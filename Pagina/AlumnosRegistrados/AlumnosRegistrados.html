@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!--bootstrap CSS-->
+
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+          <!--JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <!-- FRAMEWORK BOOTSTRAP para el estilo de la pagina-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    
+    <!-- Los iconos tipo Solid de Fontawesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css">
+    <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+    <!-- Nuestro css-->
+    <link rel="stylesheet" type="text/css" href="static/css/index.css" th:href="@{/css/index.css}">
+
+	<title>Informe de Visitas</title>
+</head>
+<body>
+<div class="modal-dialog text-center">
+        <div class="col-sm-15 main-section">
+            <div class="modal-content">
+                <div><h1>Alumnos Registrados</h1></div>
+                <form class="col-12"  method="get">
+                
+                       <table class="table table-responsive table-bordered table-hover">
+
+
+    <thead>
+        <tr class="success">
+            <th>Nombre</th> 
+            <th>Apellido Paterno</th>
+            <th>Apellido Materno</th>
+            <th>Matricula</th>
+            <th>NSS</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>   </td>
+            <td>   </td>
+            <td>   </td>
+            <td>   </td>
+            <td>   </td>
+        </tr>
+        <tr>
+            <td>  </td>
+            <td>  </td>
+            <td>  </td>
+            <td>  </td>
+            <td>   </td>
+        </tr>
+        <tr>
+            <td>  </td>
+            <td>  </td>
+            <td>  </td>
+            <td>  </td>
+            <td>   </td>
+        </tr>
+    </tbody>
+</table>
+                <div class="form-group" id="user-group">
+                        <input type="text" class="form-control" placeholder="Alergias" name="username"/>
+                    </div>
+
+                    <div class="form-group" id="user-group">
+                        <input type="text" class="form-control" placeholder="Dicapacidad" name="username"/>
+                    </div>
+                   
+                    <div class="form-group" id="user-group">
+                        <input type="text" class="form-control" placeholder="Tipo de Sangre" name="username"/>
+                    </div>
+
+                     <div class="form-group" id="user-group">
+                        <input type="text" class="form-control" placeholder="Altura" name="username"/>
+                    </div>
+
+                    <div class="form-group" id="user-group">
+                        <input type="text" class="form-control" placeholder="Peso" name="username"/>
+                    </div>
+
+                    <p><h2>Buscar Alumno </h2></p>
+
+                      <div class="form-group" id="user-group">
+                        <input type="text" class="form-control" placeholder="Ingrese Alumno a buscar" name="username"/>
+                    </div>
+         
+                    <button type="submit" class="btn btn-primary"><i class="fas fa-sign-in-alt"></i> Buscar </button>
+
+                <br>
+
+                   <button type="submit" class="btn btn-secondary"><i class="fas fa-sign-in-alt"></i>  Regresar </button>
+                
+                </form>
+               
+
+
+          
+            </div>
+        </div>
+    </div>
+</body>
+</html>
